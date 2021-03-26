@@ -1,2 +1,2 @@
 # octoops.github.io
-OctoOps is a place for the various interesting development operations things
+OctoOps is a place with the various interesting development operations things
