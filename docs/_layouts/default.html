@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+
+    {% if site.google_analytics %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+      </script>
+    {% endif %}
+    <meta charset="UTF-8">
+    <meta name="author" content="Alex Sonar">
+
+{% seo %}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <!--<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">-->
+
+ <!-- ================= Favicon ================== -->
+        <!-- Standard -->
+        <link rel="shortcut icon" href="{{ 'img/favicon.png' | relative_url }}">
+        <!-- Retina iPad Touch Icon-->
+        <link rel="apple-touch-icon" sizes="144x144" href="img/favicon-retina-ipad.png">
+        <!-- Retina iPhone Touch Icon-->
+        <link rel="apple-touch-icon" sizes="114x114" href="img/favicon-retina-iphone.png">
+        <!-- Standard iPad Touch Icon--> 
+        <link rel="apple-touch-icon" sizes="72x72" href="img/favicon-standard-ipad.png">
+        <!-- Standard iPhone Touch Icon--> 
+        <link rel="apple-touch-icon" sizes="57x57" href="img/favicon-standard-iphone.png">
+
+        <!-- ============== Resources style ============== -->
+        <link rel="stylesheet" href="{{ 'css/style-4.css' | relative_url }}" />
+
+        <link rel="stylesheet" href="{{ 'css/jquery.mCustomScrollbar.css' | relative_url }}">
+
+		<!-- Modernizr runs quickly on page load to detect features -->
+		<script src="{{ 'js/modernizr.js' | relative_url }}"></script>
+
+  </head>
+  <body>
+    <!-- <a id="skip-to-content" href="#content">Testt.</a>-->
+
+    <!-- <header class="page-header" role="banner">
+      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      {% if site.github.is_project_page %}
+        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+
+        <a href="{{ site.github.page.url }}5-key-value-store" class="btn">5-key-value-store</a>
+      {% endif %}
+      {% if site.show_downloads %}
+        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+      {% endif %}
+
+-->
+<a name="top"></a>
+
+<div class="loading-part animated-quick">
+
+     <div class="loader-part opacity-0 animated-quick">
+
+          <div class="loader-circle"></div>
+          <div class="loader-text">octOOps</div>
+
+     </div>
+
+</div>
+
+<button class="open-menu-mobile">
+  <i class="icon ion-navicon-round opening-menu"></i>
+  <i class="icon ion-close-round closing-menu display-none"></i>
+</button>
+
+<div id="navigation" class="mobile-nav animated-middle">
+
+     <ul class="main-navigation">
+				
+          <li >
+               <a id="nav-nav" class="newsletter-color nav-link-close">
+                    <i class="icon ion-ios-navigate-outline"></i>
+                    Nav
+               </a>
+          </li>
+          <li tag="gitops" id="gitops" class="">
+               <a id="nav-link" class="">
+                    <!-- <i class="icon ion-merge"></i> -->
+                    <i class="icon ion-social-octocat"></i>
+                    GitOps
+               </a>
+          </li>
+
+          <li class="">
+               <a class="nav-link" href="http://127.0.0.1:5500/alexsonar.github.io/docs/index.html">
+                    <i class="icon ion-lock-combination"></i>
+                    SecOps
+               </a>
+          </li>
+
+          <li>
+               <a class="nav-link" href="http://127.0.0.1:5500/alexsonar.github.io/docs/index_test2.html">
+                    <i class="icon ion-cube"></i>
+                    Virtual
+               </a>
+          </li>
+
+          <li>
+               <a class="nav-link contact-content">
+                    <i class="icon ion-android-apps"></i>
+                    Orcestr
+               </a>
+          </li>
+
+          <li>
+               <a class="open-newsletter">
+                    <i class="icon ion-refresh"></i>
+                    Auto
+               </a>
+          </li>
+          
+          <li>
+               <a class="open-newsletter">
+                    <i class="icon ion-ios-color-wand-outline"></i>
+                    AIOps
+               </a>
+          </li>
+
+          <li>
+               <a class="">
+                    <i class="icon ion-ios-infinite"></i>
+                    Continues+
+               </a>
+          </li>
+          <li>
+               <a class="">
+                    <i class="icon ion-ios-color-filter"></i>
+                    Culture
+               </a>
+          </li>
+
+     </ul> <!-- CLOSE Main nav -->
+
+     <ul class="bottom-nav">
+          <li>
+               <a class="open-newsletter">
+                    <i class="icon ion-ios-bell-outline"></i>
+                    subscribe
+               </a>
+          </li>
+
+          <li class="twitter-color">
+               <a href="#" title="">
+                    <i class="icon ion-social-twitter-outline"></i>
+                    Twitter
+               </a>
+          </li>
+
+          <li class="facebook-color">
+               <a href="#" title="">
+                    <i class="icon ion-social-facebook-outline"></i>
+                    Facebook
+               </a>
+          </li>
+
+     </ul> <!-- CLOSE .bottom-nav -->
+
+
+</div> <!-- CLOSE #navigation -->
+
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      
+      {{ content }}
+
+      <footer class="site-footer">
+        {% if site.github.is_project_page %}
+          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+    <!-- ///////////////////\\\\\\\\\\\\\\\\\\\ -->
+    <!-- ********** Resources jQuery ********** -->
+    <!-- \\\\\\\\\\\\\\\\\\\/////////////////// -->
+	
+  <!-- * Libraries jQuery, Easing and Bootstrap - Be careful to not remove them * -->
+  <script src="js/jquery.min.js"></script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.easings.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- Google Maps API -->
+	<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+	<!-- Countdown plugin -->
+	<script src="js/countdown.js"></script>
+
+	<!-- Newsletter plugin -->
+	<script src="js/notifyMe.js"></script>
+
+	<!-- Contact form plugin -->
+	<script src="js/contact-me.js"></script>
+
+	<!-- Swipebox plugin -->
+	<script src="js/jquery.swipebox.js"></script>
+
+	<!-- Text rotator plugin -->
+	<script src="js/animated-headlines.js"></script>
+
+
+	<!-- Scroll plugin -->
+	<script src="js/jquery.mousewheel.js"></script>
+
+	<!-- Slideshow plugin -->
+	<script src="js/vegas.js"></script>
+
+	<!-- Custom Scrollbar plugin -->
+	<script src="js/jquery.mCustomScrollbar.js"></script>
+
+	<!-- Main JS File -->
+	<script src="js/main-boxed.js"></script>
+	
+	<!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
+          {% endif %}
+          <!-- npp -->
+        <!-- <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span> -->
+       <!-- * Libraries jQuery, Easing and Bootstrap - Be careful to not remove them * -->
+
+
+       <a class="scroll-to-top hidden-mobile visible" href="#top"><i class="fa fa-chevron-up"></i></a>
+
+       <!-- Language selection -->
+       <p class="lang">			
+            <a href="" class="active">EN</a><span> | </span>
+            <a href="">RU</a>
+       </p>
+
+       <!-- Copyright -->
+       <p class="copyright" title="Creative common License" >© octOOps 2021</p>
+
+
+
+
+	<script src="{{ 'js/jquery.min.js' | relative_url }}"></script>
+	<script src="{{ 'js/jquery.easings.min.js' | relative_url }}"></script>
+	<script src="{{ 'js/bootstrap.min.js' | relative_url }}"></script>
+
+	<!-- Google Maps API -->
+	<script src="{{ 'http://maps.google.com/maps/api/js?sensor=false"></script>
+
+	<!-- Countdown plugin -->
+	<script src="{{ 'js/countdown.js' | relative_url }}"></script>
+
+	<!-- Newsletter plugin -->
+	<script src="{{ 'js/notifyMe.js' | relative_url }}"></script>
+
+	<!-- Contact form plugin -->
+	<script src="{{ 'js/contact-me.js' | relative_url }}"></script>
+
+	<!-- Swipebox plugin -->
+	<script src="{{ 'js/jquery.swipebox.js' | relative_url }}"></script>
+
+	<!-- Text rotator plugin -->
+	<script src="{{ 'js/animated-headlines.js' | relative_url }}"></script>
+
+
+	<!-- Scroll plugin -->
+	<script src="{{ 'js/jquery.mousewheel.js' | relative_url }}"></script>
+
+	<!-- Slideshow plugin -->
+	<script src="{{ 'js/vegas.js' | relative_url }}"></script>
+
+	<!-- Custom Scrollbar plugin -->
+	<script src="{{ 'js/jquery.mCustomScrollbar.js' | relative_url }}"></script>
+
+	<!-- Main JS File -->
+     <script src="{{ 'js/main-boxed.js' | relative_url }}"></script>
+     
+     	<!-- Scroll to top -->
+      <script src="{{ 'scroll_to_top.js' | relative_url }}"></script>
+     
+      </footer>
+    </main>
+  </body>
+</html>
