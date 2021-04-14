@@ -17,3 +17,19 @@
 
 </div>
 			
+
+			 pre code{    background: #2B2D35;
+    border-left: 2px solid #00c8aa;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    margin: 17px 0;
+    padding: 1em; }
+    
+    #contact-content .contact-item h6 {
+      color: #F8F8F8;
+      margin-bottom: 10px; }
+    #contact-content .contact-item p {
+      color: #BABABA !important;
+      font-size: 0.8em;}
