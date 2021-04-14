@@ -12,6 +12,10 @@ The Cayman theme is intended to make it quick and easy for GitHub Pages users to
 
 ## Project structure
 
+![one](hhtps://octoops.github.io/octoops.github.io/docs/en/continuing-processes/monitoring/prometheus/integration/assets/docer-compose.jpeg)
+
+![two](assets/docer-compose.jpeg)
+
 Layouts
 
 ## Install Docker-compose
@@ -51,8 +55,23 @@ Configuration variables
 ## Running tests
 The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run script/cibuild. You'll need to run script/bootstrap once before the test script will work.
 
+## Discussions
+We’re using Discussions as a place to connect with other members of our community. We hope that you:
+
+    Ask questions you’re wondering about.
+    Share ideas.
+    Engage with other community members.
+    Welcome others and are open-minded. Remember that this is a community we
+    build together muscle.
+
+To get started, comment below with an introduction of yourself and tell us about what you do with this community.
+
+[Prometheus Inegration Discussions](https://github.com/AlexSonar/prometheus_inegration/discussions/4#discussion-3320618)
+
+
 ## Contributing
 Interested in contributing to Cayman? We'd love your help. Cayman is an open source project, built one contribution at a time by users like you. See the CONTRIBUTING file for instructions on how to contribute.
+
 
 
 #prometheus #docker #docer-compose #debian:buster #nginx #apt-get #wget #yml
