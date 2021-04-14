@@ -8,17 +8,21 @@
 
 ## Project structure
 
-## Map
+## Roadmap
 
-# Install Docker-compose
+## Install Docker-compose
+```
 docker-compose --version
+```
 
-in directories prometheus_inegration/installers/i
-run chmod +x install_compose.sh
+in directories prometheus_inegration/installers/i run 
+
+```
+chmod +x install_compose.sh
 execute ./install_compose.sh
+```
 
-
-# Docker-compose compatibility
+## Docker-compose compatibility
 
 First Check your docker version
 
@@ -33,4 +37,5 @@ you can change the version to the appropriate your one.
 
 For full details on what each version includes and how to upgrade, see: [Compose and Docker compatibility matrix](https://docs.docker.com/compose/compose-file/)
 
-#prometheus #docer #docer-compose #debian:buster #nginx #apt-get #wget #yml 
+
+#prometheus #docer #docer-compose #debian:buster #nginx #apt-get #wget #yml
