@@ -1,10 +1,12 @@
 # Prometheus Integration
 
 ## Prerequisites
-     ### Local hosted
- - OS debian or ubuntu
- - [docker]
- - [docker-compose]()
+
+### Local hosted
+
+- OS debian or ubuntu
+- [docker]
+- [docker-compose]()
 
 ## Project philosophy
 
@@ -28,6 +30,7 @@ The Cayman theme is intended to make it quick and easy for GitHub Pages users to
 Layouts
 
 ## Install Docker-compose
+
 ```
 docker-compose --version
 ```
