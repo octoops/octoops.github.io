@@ -22,7 +22,7 @@ The Cayman theme is intended to make it quick and easy for GitHub Pages users to
 ## Project structure
 
 
-![two](assets/docer-compose.jpeg)
+![two](assets/docer-compose.jpeg =100%)
 
 Layouts
 

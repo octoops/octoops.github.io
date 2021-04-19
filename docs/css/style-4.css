@@ -159,14 +159,17 @@ h1 {
   text-transform: uppercase;
   font-weight: 600;
   color: #CCC;
+  margin-bottom: 25px;
   /* color: #FFFFFF;  */
 }
 
 h2 {
   font-size: 35px;
   font-weight: 700;
-  color: #323a45;
-  margin-bottom: 25px; }
+  color: #326999;
+  margin-bottom: 25px;
+  margin-top: 38px; 
+}
 
 h3 {
   font-size: 30px;
@@ -976,7 +979,7 @@ p.lang {
   left: 0;
   width: calc(100vw - 180px) !important;
   margin: auto;
-  padding: 3%;
+  padding: 20%;
   z-index: 10;
   -webkit-overflow-scrolling: touch;
   -webkit-transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
