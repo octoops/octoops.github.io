@@ -9,7 +9,7 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
-/docs/page_test.html
+/docs/page_test*
 # Used by dotenv library to load environment variables.
 # .env
 
